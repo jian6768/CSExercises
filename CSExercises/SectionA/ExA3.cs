@@ -20,13 +20,12 @@ namespace CSExercises
             int result = square(inputInt);
 
             Console.WriteLine(result);
+            
         }
 
         public static int square(int x)
         {
-            //PUT YOUR CODE HERE
-            return 0;
-
+            return x * x;
         }
     }
 }

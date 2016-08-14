@@ -19,14 +19,18 @@ namespace CSExercises
 
         public static void Main(string[] args)
         {
-            //YOUR CODE HERE
+            double a = Convert.ToDouble(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
+            double c = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("{0:#.###}", CalculateArea(a, b, c));
+
 
         }
 
         public static double CalculateArea(double a, double b, double c)
         {
-            //YOUR CODE HERE
-            return 0;
+            double s = (a + b + c) / 2;
+            return Math.Sqrt(s*(s-a)*(s-b)*(s-c));
         }
     }
 }

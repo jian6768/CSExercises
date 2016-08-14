@@ -19,7 +19,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            //YOUR CODE HERE
+            Console.WriteLine("Chua Khiong Jian");
+            Console.WriteLine("e0054251@u.nus.edu");
+
         }
     }
 }
